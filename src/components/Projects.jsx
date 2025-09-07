@@ -4,6 +4,7 @@ import WhatsUp from '/src/assets/WhatsUp.png';
 import DormQuest from '/src/assets/DormQuest.png';
 import ChoreStack from '/src/assets/ChoreStack.png';
 import Resumind from '/src/assets/Resumind.png';
+import SimonSays from '/src/assets/SimonSays.png';
 
 const Projects = () => {
   const [currentProject, setCurrentProject] = useState(0);
@@ -44,6 +45,13 @@ const Projects = () => {
       techStack: ['React Router v7', 'Puter.js', 'TypeScript', 'Zustand', 'Tailwind CSS'],
       image: Resumind,
       liveUrl: 'https://ai-resume-analyzer-plum.vercel.app/',
+    },
+    {
+      title: 'Simon Says Game',
+      description: 'A memory sharpening game',
+      techStack: ['HTML', 'CSS', 'JavaScript'],
+      image: SimonSays,
+      liveUrl: 'https://simon-says-game-murex-five.vercel.app/',
     },
     // {
     //   title: 'Weather Dashboard',
